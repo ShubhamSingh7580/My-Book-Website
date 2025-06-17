@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Read Online - If You Don't Have Goals, You Are Not Alive</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: #f3f3ff;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        background-color: #7e57c2;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.8rem;
+        margin: 0;
+      }
+
+      .chapter-list {
+        padding: 1rem;
+      }
+
+      .chapter {
+        background-color: white;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        padding: 1rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        position: relative;
+        transition: all 0.3s ease;
+      }
+
+      .chapter:hover {
+        background-color: #f1f0ff;
+      }
+
+      .chapter .arrow {
+        position: absolute;
+        right: 1rem;
+        font-size: 1.2rem;
+        top: 1rem;
+      }
+
+      .subchapters {
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        display: none;
+      }
+
+      .subchapter {
+        background-color: #fdfdfd;
+        padding: 0.5rem;
+        margin: 0.3rem 0;
+        border-left: 3px solid #7e57c2;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      .subchapter:hover {
+        background-color: #eaeaff;
+      }
+
+      a.chapter,
+      a.subchapter {
+        text-decoration: none;
+        color: #333;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>अगर आपके पास गोल्स नहीं है, तो आप ज़िंदा भी नहीं हैं।</h1>
+
+    <div class="chapter-list">
+      <a href="pageshin.html#introduction" class="chapter"
+        >पुस्तक की शुरुआत <span class="arrow">→</span></a
+      >
+      <a href="pageseng.html#index" class="chapter"
+        >विषय-सूची <span class="arrow">→</span></a
+      >
+      <!-- Preface -->
+      <a href="pageshin.html#preface" class="chapter"
+        >प्रस्तावना <span class="arrow">→</span></a
+      >
+
+      <!-- Chapter I -->
+      <div class="chapter" onclick="toggleSub('ch1')">
+        अध्याय I: लोग गोल्स सेटिंग क्यों नहीं करते हैं?
+        <span class="arrow">▼</span>
+        <div class="subchapters" id="ch1">
+          <a href="pageshin.html#chapter1" class="subchapter">परिचय</a>
+          <a href="pageshin.html#chapter1.1" class="subchapter"
+            >1. गोल्स ज़रूरी नहीं होते हैं</a
+          >
+          <a href="pageshin.html#chapter1.2" class="subchapter"
+            >2. जानते नहीं कि गोल्स कैसे सेट करें</a
+          >
+          <a href="pageshin.html#chapter1.3" class="subchapter">3. हार का डर</a>
+          <a href="pageshin.html#chapter1.4" class="subchapter"
+            >4. अस्वीकृति का डर</a
+          >
+          <a href="pageshin.html#chapter1.5" class="subchapter"
+            >5. गोल्स सेट करने से टालमटोल करना</a
+          >
+        </div>
+      </div>
+
+      <!-- Chapter II -->
+      <div class="chapter" onclick="toggleSub('ch2')">
+        अध्याय II: गोल्स सेटिंग करना क्यों ज़रूरी है?
+        <span class="arrow">▼</span>
+        <div class="subchapters" id="ch2">
+          <a href="pageshin.html#chapter2" class="subchapter">परिचय</a>
+          <a href="pageshin.html#chapter2.1" class="subchapter"
+            >1. सही दिशा मिलना</a
+          >
+          <a href="pageshin.html#chapter2.2" class="subchapter"
+            >2. केंद्रित होना</a
+          >
+          <a href="pageshin.html#chapter2.3" class="subchapter"
+            >3. टालमटोल कम होना</a
+          >
+          <a href="pageshin.html#chapter2.4" class="subchapter"
+            >4. ऊर्जावान बने रहना</a
+          >
+          <a href="pageshin.html#chapter2.5" class="subchapter"
+            >5. समय का सही उत्पादन करना</a
+          >
+          <a href="pageshin.html#chapter2.6" class="subchapter"
+            >6. अच्छा भविष्य होना</a
+          >
+          <a href="pageshin.html#chapter2.7" class="subchapter"
+            >7. सुबह उठने की वजह मिलना</a
+          >
+          <a href="pageshin.html#chapter2.8" class="subchapter"
+            >8. अच्छा इंसान बनना</a
+          >
+          <a href="pageshin.html#chapter2.9" class="subchapter"
+            >9. खुशियों का आगमन होना</a
+          >
+          <a href="pageshin.html#chapter2.10" class="subchapter"
+            >10. गहराई मिलना</a
+          >
+        </div>
+      </div>
+
+      <!-- Chapter III with Subchapters -->
+      <div class="chapter" onclick="toggleSub('ch3')">
+        अध्याय III: हमारे कुछ दुश्मन <span class="arrow">▼</span>
+        <div class="subchapters" id="ch3">
+          <a href="pageshin.html#chapter3" class="subchapter">परिचय</a>
+          <a href="pageshin.html#chapter3.1" class="subchapter"
+            >1. दूसरों को दोष देना</a
+          >
+          <a href="pageshin.html#chapter3.2" class="subchapter"
+            >2. बीते हुए समय पर रोना</a
+          >
+          <a href="pageshin.html#chapter3.3" class="subchapter"
+            >3. व्यर्थ चीज़ों पर ध्यान केंद्रित करना</a
+          >
+          <a href="pageshin.html#chapter3.4" class="subchapter"
+            >4. दूसरों की सुनकर प्रतिक्रिया करना</a
+          >
+        </div>
+      </div>
+
+      <!-- Chapter IV -->
+      <div class="chapter" onclick="toggleSub('ch4')">
+        अध्याय IV: गोल्स सेट करने के 6 महत्वपूर्ण कदम
+        <span class="arrow">▼</span>
+        <div class="subchapters" id="ch4">
+          <a href="pageshin.html#chapter4" class="subchapter">परिचय</a>
+          <a href="pageshin.html#chapter4.1" class="subchapter"
+            >1. अपने गोल्स को निर्धारित करना</a
+          >
+          <a href="pageshin.html#chapter4.2" class="subchapter"
+            >2. गिनती करने योग्य</a
+          >
+          <a href="pageshin.html#chapter4.3" class="subchapter"
+            >3. समय निर्धारित करना</a
+          >
+          <a href="pageshin.html#chapter4.4" class="subchapter"
+            >4. लिखना ज़रूरी है</a
+          >
+          <a href="pageshin.html#chapter4.5" class="subchapter"
+            >5. गोल्स को संतुलित ढंग से लिखना</a
+          >
+          <a href="pageshin.html#chapter4.6" class="subchapter"
+            >6. पांच महत्वपूर्ण प्रश्न</a
+          >
+        </div>
+      </div>
+
+      <!-- Success By Self Development -->
+      <a href="pageshin.html#selfdev" class="chapter"
+        >आत्म- विकास से सफलता <span class="arrow">→</span></a
+      >
+
+      <!-- Chapter V with Subchapters -->
+      <div class="chapter" onclick="toggleSub('ch5')">
+        अध्याय V: गोल्स हासिल करने के 8 कदम
+        <span class="arrow">▼</span>
+        <div class="subchapters" id="ch5">
+          <a href="pageshin.html#chapter5" class="subchapter">परिचय</a>
+          <a href="pageshin.html#step1" class="subchapter"
+            >1. अपने 'क्यों' को जानिए</a
+          >
+          <a href="pageshin.html#step2" class="subchapter"
+            >2. गोल्स सामने रखें</a
+          >
+          <a href="pageshin.html#step3" class="subchapter"
+            >3. ज्ञान, कौशल और संसाधन</a
+          >
+          <a href="pageshin.html#step4" class="subchapter"
+            >4. गोल्स तक पहुंचने का रास्ता</a
+          >
+          <a href="pageshin.html#step5" class="subchapter"
+            >5. पहला कदम कैसे लें</a
+          >
+          <a href="pageshin.html#step6" class="subchapter"
+            >6. अपना कोच ढुंढें</a
+          >
+          <a href="pageshin.html#step7" class="subchapter"
+            >7. कभी हार मत मानना</a
+          >
+          <a href="pageshin.html#step8" class="subchapter"
+            >8. आत्म-विश्वास कैसे बढ़ाएं</a
+          >
+        </div>
+      </div>
+
+      <!-- Final Sections -->
+      <a href="pageshin.html#definition" class="chapter"
+        >सफलता की परिभाषा <span class="arrow">→</span></a
+      >
+      <a href="pageshin.html#author" class="chapter"
+        >लेखक के बारे में <span class="arrow">→</span></a
+      >
+    </div>
+
+    <script>
+      function toggleSub(id) {
+        const el = document.getElementById(id);
+        el.style.display = el.style.display === "block" ? "none" : "block";
+      }
+    </script>
+  </body>
+</html>

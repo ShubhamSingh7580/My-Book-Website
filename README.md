@@ -1,11 +1,10 @@
 
 # If You Don't Have Goals, You Are Not Alive - Book Website
 
-This is the official website for the motivational book **"If You Don't Have Goals, You Are Not Alive"** written by **Shubham Singh**.
+This is the official website for the motivational book **"If You Don't Have Goals, You Are Not Alive"** written by **Shubham Singh**. But You can't read the book online using this website.
 
 ## 🌟 Features
 
-- 📖 Read the book online (English & Hindi versions)
 - 📥 Download the book PDF in both languages
 - 🧠 Motivational quotes from the author
 - 🧑‍💻 About the Author
@@ -18,7 +17,7 @@ This website is hosted for free on [Vercel](https://vercel.com). Any updates pus
 ## 🔧 How to Edit
 
 To update the website:
-1. Make changes to HTML/CSS/JS files locally.
+1. Make changes to HTML/CSS files locally.
 2. Push them to this GitHub repository.
 3. Vercel will auto-deploy the new version.
 
